@@ -14,8 +14,8 @@ const loveError = document.getElementById("love-error");
 const alwaysError = document.getElementById("always-error");
 
 const heartFrames = [
-  "   ❤       ❤  ",
-  " ❤❤❤    ❤❤❤ ",
+  "   ❤        ❤  ",
+  " ❤❤❤     ❤❤❤ ",
   "❤❤❤❤❤❤❤❤❤",
   " ❤❤❤❤❤❤❤ ",
   "   ❤❤❤❤❤ ",
