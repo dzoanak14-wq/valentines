@@ -1,137 +1,137 @@
-+:root {
-+  color-scheme: light;
-+  --bg: #fff7fb;
-+  --primary: #e9166d;
-+  --primary-dark: #bb0952;
-+  --text: #2f1230;
-+}
-+
-+* {
-+  box-sizing: border-box;
-+}
-+
-+body {
-+  margin: 0;
-+  min-height: 100vh;
-+  display: grid;
-+  place-items: center;
-+  background: radial-gradient(circle at top, #ffe9f4 0%, var(--bg) 60%);
-+  font-family: "Segoe UI", Arial, sans-serif;
-+  color: var(--text);
-+}
-+
-+.app {
-+  width: min(92vw, 800px);
-+  min-height: 500px;
-+  border-radius: 18px;
-+  padding: 1.5rem;
-+  background: #ffffff;
-+  box-shadow: 0 16px 40px rgba(156, 43, 88, 0.2);
-+}
-+
-+.screen {
-+  display: none;
-+  min-height: 460px;
-+}
-+
-+.screen.active {
-+  display: flex;
-+  flex-direction: column;
-+  align-items: center;
-+  justify-content: center;
-+  gap: 1rem;
-+}
-+
-+.title,
-+h2 {
-+  text-align: center;
-+  margin: 0;
-+}
-+
-+.heart-builder {
-+  font-size: 30px;
-+  line-height: 1;
-+  letter-spacing: 4px;
-+  min-height: 180px;
-+  display: grid;
-+  place-items: center;
-+  white-space: pre;
-+  color: var(--primary);
-+  font-weight: 700;
-+}
-+
-+.btn {
-+  border: none;
-+  border-radius: 999px;
-+  padding: 0.7rem 1.4rem;
-+  font-size: 1rem;
-+  font-weight: 600;
-+  cursor: pointer;
-+  background: var(--primary);
-+  color: white;
-+  transition: background 0.2s ease;
-+}
-+
-+.btn:hover {
-+  background: var(--primary-dark);
-+}
-+
-+.hidden {
-+  display: none;
-+}
-+
-+.corner-header {
-+  width: 100%;
-+  display: flex;
-+  justify-content: flex-end;
-+  align-items: flex-start;
-+  gap: 0.7rem;
-+}
-+
-+.mini-heart {
-+  font-size: 2rem;
-+  color: var(--primary);
-+  line-height: 1;
-+}
-+
-+.initials {
-+  display: flex;
-+  gap: 0.4rem;
-+  margin-top: 0.35rem;
-+  font-weight: 700;
-+}
-+
-+.content {
-+  flex: 1;
-+  width: 100%;
-+  display: flex;
-+  flex-direction: column;
-+  align-items: center;
-+  justify-content: center;
-+  gap: 1rem;
-+}
-+
-+input {
-+  width: min(90%, 360px);
-+  border: 1px solid #deb7cc;
-+  border-radius: 10px;
-+  padding: 0.8rem;
-+  font-size: 1rem;
-+}
-+
-+.actions {
-+  display: flex;
-+  gap: 0.8rem;
-+}
-+
-+.error {
-+  min-height: 1.2rem;
-+  color: #d51616;
-+  font-weight: 600;
-+}
-+
-+.final-screen .big-heart {
-+  font-size: 140px;
-+  line-height: 1;
-+  color: var(--primary);
-+}
+:root {
+  color-scheme: light;
+  --bg: #fff7fb;
+  --primary: #e9166d;
+  --primary-dark: #bb0952;
+  --text: #2f1230;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  background: radial-gradient(circle at top, #ffe9f4 0%, var(--bg) 60%);
+  font-family: "Segoe UI", Arial, sans-serif;
+  color: var(--text);
+}
+
+.app {
+  width: min(92vw, 800px);
+  min-height: 500px;
+  border-radius: 18px;
+  padding: 1.5rem;
+  background: #ffffff;
+  box-shadow: 0 16px 40px rgba(156, 43, 88, 0.2);
+}
+
+.screen {
+  display: none;
+  min-height: 460px;
+}
+
+.screen.active {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.title,
+h2 {
+  text-align: center;
+  margin: 0;
+}
+
+.heart-builder {
+  font-size: 30px;
+  line-height: 1;
+  letter-spacing: 4px;
+  min-height: 180px;
+  display: grid;
+  place-items: center;
+  white-space: pre;
+  color: var(--primary);
+  font-weight: 700;
+}
+
+.btn {
+  border: none;
+  border-radius: 999px;
+  padding: 0.7rem 1.4rem;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  background: var(--primary);
+  color: white;
+  transition: background 0.2s ease;
+}
+
+.btn:hover {
+  background: var(--primary-dark);
+}
+
+.hidden {
+  display: none;
+}
+
+.corner-header {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  gap: 0.7rem;
+}
+
+.mini-heart {
+  font-size: 2rem;
+  color: var(--primary);
+  line-height: 1;
+}
+
+.initials {
+  display: flex;
+  gap: 0.4rem;
+  margin-top: 0.35rem;
+  font-weight: 700;
+}
+
+.content {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+input {
+  width: min(90%, 360px);
+  border: 1px solid #deb7cc;
+  border-radius: 10px;
+  padding: 0.8rem;
+  font-size: 1rem;
+}
+
+.actions {
+  display: flex;
+  gap: 0.8rem;
+}
+
+.error {
+  min-height: 1.2rem;
+  color: #d51616;
+  font-weight: 600;
+}
+
+.final-screen .big-heart {
+  font-size: 140px;
+  line-height: 1;
+  color: var(--primary);
+}
