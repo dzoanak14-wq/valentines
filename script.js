@@ -70,6 +70,3 @@ document.getElementById("always-yes").addEventListener("click", () => {
 });
 
 animateHeartBuild();
-
-EOF
-)
