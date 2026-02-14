@@ -45,7 +45,7 @@ document.getElementById("check-name").addEventListener("click", () => {
   if (nameInput.value.trim() === "Bambosz") {
     nameError.textContent = "";
     showScreen("three");
-    return;
+     return;
   }
 
   nameError.textContent = "Spróbuj ponownie.";
@@ -70,6 +70,6 @@ document.getElementById("always-yes").addEventListener("click", () => {
 });
 
 animateHeartBuild();
- 
+
 EOF
 )
