@@ -16,7 +16,7 @@ const alwaysError = document.getElementById("always-error");
 const heartFrames = [
   "   ❤     ❤  ",
   " ❤❤❤  ❤❤❤ ",
-  "❤❤❤❤❤❤❤❤",
+  "❤❤❤❤❤❤❤❤❤",
   " ❤❤❤❤❤❤❤ ",
   "   ❤❤❤❤❤ ",
   "     ❤❤ ",
