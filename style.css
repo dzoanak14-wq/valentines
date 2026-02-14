@@ -50,14 +50,15 @@ h2 {
 
 .heart-builder {
   font-size: 30px;
-  line-height: 1;
-  letter-spacing: 4px;
+  line-height: 1.15;
+  letter-spacing: 0;
   min-height: 180px;
   display: grid;
   place-items: center;
   white-space: pre;
   color: var(--primary);
   font-weight: 700;
+  font-family: "Cascadia Mono", "Consolas", "Courier New", monospace;
 }
 
 .btn {
