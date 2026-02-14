@@ -84,21 +84,15 @@ h2 {
   width: 100%;
   display: flex;
   justify-content: flex-end;
-  align-items: flex-start;
-  gap: 0.7rem;
+  align-items: center;
+  gap: 0.45rem;
+  font-weight: 700;
 }
 
 .mini-heart {
   font-size: 2rem;
   color: var(--primary);
   line-height: 1;
-}
-
-.initials {
-  display: flex;
-  gap: 0.4rem;
-  margin-top: 0.35rem;
-  font-weight: 700;
 }
 
 .content {
