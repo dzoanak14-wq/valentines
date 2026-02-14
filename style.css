@@ -32,6 +32,9 @@ body {
 .screen {
   display: none;
   min-height: 460px;
+  position: relative;
+  padding-top: 2.4rem;
+
 }
 
 .screen.active {
@@ -83,6 +86,9 @@ h2 {
 
 .corner-header {
   width: 100%;
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
   display: flex;
   justify-content: flex-end;
   align-items: center;
